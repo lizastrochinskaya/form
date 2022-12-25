@@ -1,0 +1,38 @@
+body {
+background-image: linear-gradient(90deg,rgb(38, 38, 142),rgb(156, 45, 173)); 
+
+}
+form {
+    width: 40%;
+    background-color: rgb(7, 36, 61);
+    margin: auto;
+    padding: 120px 40px;
+    text-align: center;
+    color: white;
+
+}
+input,textarea {
+    background-color: transparent;
+    border: 2px white solid; 
+    border-radius: 20px;
+    padding: 10px;
+}
+label, input,textarea {
+    display: block;
+    width: 80%;
+    margin: auto; 
+
+}
+input[type="radio"],input[type="checkbox"]{
+    width: auto;
+    display: inline;
+}
+.radio{
+    /* width: auto; */
+    display: inline-block;
+    text-align: left;
+
+}
+input[type="submit"] {
+width: 150px;
+}
